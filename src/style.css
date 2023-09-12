@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(101, 163, 199);
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height:10%;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.results-title{
+    text-align: center;
+}
+
+
+/*<------------------- Movable dial --------------------------------> */ 
+.dial {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: #24648f;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    border:1px solid black;
+}
+
+.dial-bar{
+    display: flex;
+    width:380px;
+    height:30px;
+    background-color: #e2e2e2;
+    margin: auto;
+}
+
+.dial-bar-mark{
+    width:63.3333px;
+    height:100%;
+}
+
+.good{
+    background-color: green;
+}
+
+.ok{
+    background-color: rgb(158, 148, 59);
+}
+
+.not-great{
+    background-color: rgb(158, 104, 59);
+}
+
+.poor{
+    background-color: rgb(158, 59, 59);
+}
+
+.very-poor{
+    background-color: rgb(65, 46, 46);
+}
+
+.danger{
+    background-color: rgb(78, 12, 56);
+}
+
+.triangle {
+    display: none;
+    margin: 1em auto auto auto;
+    width: 0;
+    height: 0;
+    border-left: 12.5px solid transparent;  /* Adjust the size of the triangle */
+    border-right: 12.5px solid transparent; /* Adjust the size of the triangle */
+    border-bottom: 21.75px solid #000000;   /* Adjust the color of the triangle */
+}
+    
+
+/* <-------------------------------------------> */
+
+
+
